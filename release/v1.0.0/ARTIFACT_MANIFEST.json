@@ -1,0 +1,33 @@
+{
+  "artifact_id": "wolfram-protein-model-audit-001",
+  "version": "1.0.0",
+  "title": "Auditing Protein-Dynamics Models with Structural Nulls",
+  "canonical_run": "run_20260824T154329Z",
+  "run_commit": "44945311f38bcdeb7b45be911fc8432bcc275d79",
+  "environment": {
+    "mathematica": "15.0.1",
+    "platform": "Linux x86-64"
+  },
+  "frozen_input": {
+    "file": "sample_residue_data.csv",
+    "sha256": "3a42e891ebf54e141544b675ee5c113842bda57cef6212b89942aea4ace04d26",
+    "residue_rows": 2000,
+    "proteins": 100,
+    "residues_per_protein": 20,
+    "ecod_h_groups": 59
+  },
+  "primary_result": {
+    "metric": "Macro-H Spearman rho",
+    "A": 0.11429845800943032,
+    "C": 0.3366254619599847,
+    "C_minus_A": 0.22232700395055432,
+    "bootstrap_ci95": [0.1625783739008538, 0.28362335924557136],
+    "bootstrap_replicates": 2000
+  },
+  "validation": {
+    "authority_reconstruction": "PASS",
+    "structural_null_audit": "PASS",
+    "clean_kernel_reproduction": "PASS"
+  },
+  "claim_boundary": "Frozen-output reconstruction; no retraining or independent experimental replication."
+}

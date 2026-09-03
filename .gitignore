@@ -1,0 +1,18 @@
+# OS/editor debris
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.tmp
+
+# Local development/editor settings
+.vscode/
+.idea/
+
+# Python/cache debris if tooling is used locally
+__pycache__/
+*.pyc
+
+# Never commit ad-hoc local logs/backups
+*.log
+*.bak

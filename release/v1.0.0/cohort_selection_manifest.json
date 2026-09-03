@@ -1,0 +1,3768 @@
+{
+  "algorithm_version": "phase4m_freeze_v1",
+  "artifact_sha256": "86bc6bc7b892a5e43d19f0f41282cb02d6dd8a564de59f84ed22d1637206428d",
+  "blocked_h_groups_excluded": true,
+  "candidate_pool_sha256": "98339f15ba6aae6db4871382c47d7ce8ae369a1567b58f4f27cab019132eb46a",
+  "contract_sha256": "44fc687ee277d0c7dceeaf9065d9c0eb2a8e85c5ebdfb610fd33955397ce4323",
+  "download_authorized": false,
+  "exclusion_counts": {
+    "not_selected_after_n100": 950,
+    "shared_h_group_with_original_120": 87
+  },
+  "fold_assignment_method": "MILP minimizes maximum fold eligible-residue deviation, then a deterministic steepest-descent repair over whole-H-group moves (equal-size swaps; size-2 vs two size-1; size-3 vs 2+1 or three size-1) minimizes SSE, H-group-count range, then hash tie-break.",
+  "fold_map_sha256": "cc29c6268882623a239852cbac9c050cd3c4c45cb862fc9022834582268527fa",
+  "fold_seed": 6254356786680284049,
+  "fold_seed_label": "phase4m_hgroup_fold_assignment",
+  "freeze_implementation_commit": "7627b13ffdaea6c08b883a323ebf7f889d755dfd",
+  "generated_utc": "2026-08-24T10:00:22Z",
+  "git_state": {
+    "branch": "experiment/thesis-structure-kernel-benchmark-001",
+    "head": "7627b13ffdaea6c08b883a323ebf7f889d755dfd"
+  },
+  "h_groups": [
+    {
+      "h_group": "155.1",
+      "n_proteins": 2,
+      "n_residues": 134,
+      "protein_ids": [
+        "1yu5_X",
+        "2rjw_A"
+      ],
+      "rank_sha256": "0d195b28c6a14deb8d3ca12c1d30e6e5fe94c5e4c96782bb09ef1d5e99002f8e"
+    },
+    {
+      "h_group": "182.1",
+      "n_proteins": 1,
+      "n_residues": 194,
+      "protein_ids": [
+        "3lgb_B"
+      ],
+      "rank_sha256": "0f2f36597440a5f15b5a34c6c2cc4c1a9d69522b64833a74b58bdba25ffbca26"
+    },
+    {
+      "h_group": "210.2",
+      "n_proteins": 1,
+      "n_residues": 234,
+      "protein_ids": [
+        "2jft_A"
+      ],
+      "rank_sha256": "02e9c2cffff5f6d954cbfbdf190d2df26a9c7f306a9409f086dcd2f141108e80"
+    },
+    {
+      "h_group": "214.1",
+      "n_proteins": 2,
+      "n_residues": 212,
+      "protein_ids": [
+        "1d4t_A",
+        "1o4k_A"
+      ],
+      "rank_sha256": "0beefe4ffc6628e0c5c1d0fba20ce74472d6c41afa435c5e08a2df305875a189"
+    },
+    {
+      "h_group": "217.2",
+      "n_proteins": 2,
+      "n_residues": 174,
+      "protein_ids": [
+        "2nqw_A",
+        "3lae_A"
+      ],
+      "rank_sha256": "0e8309d01d0a220b7d9e00b691eee8b95e074413aff47f7e44f8c3577ae06f08"
+    },
+    {
+      "h_group": "225.1",
+      "n_proteins": 2,
+      "n_residues": 280,
+      "protein_ids": [
+        "3a0y_B",
+        "3ehg_A"
+      ],
+      "rank_sha256": "1218227b7fbe74d010cdba6ddd524ab8643b28c9014dfad45bede4d1175b80bc"
+    },
+    {
+      "h_group": "244.3",
+      "n_proteins": 2,
+      "n_residues": 279,
+      "protein_ids": [
+        "2qq4_B",
+        "3g0m_A"
+      ],
+      "rank_sha256": "05596bfeb3d19288d50c80fd3fabe06d67324261725a59bd8148dbf074b5aedd"
+    },
+    {
+      "h_group": "2486.1",
+      "n_proteins": 2,
+      "n_residues": 638,
+      "protein_ids": [
+        "1dci_C",
+        "3bpt_A"
+      ],
+      "rank_sha256": "039229c0073469ffcea2df92dffa2b69f1c0201e4e8d295c6862019688e4a0bb"
+    },
+    {
+      "h_group": "2492.1",
+      "n_proteins": 1,
+      "n_residues": 178,
+      "protein_ids": [
+        "2znr_A"
+      ],
+      "rank_sha256": "0b026a8c2d57a0d1ce7289572f77e44d9918e3fe9c2a8cb11c3777b07ca2a16f"
+    },
+    {
+      "h_group": "266.1",
+      "n_proteins": 2,
+      "n_residues": 524,
+      "protein_ids": [
+        "1bkp_A",
+        "6a9a_A"
+      ],
+      "rank_sha256": "1149efe3228a8853b3a5264cbd245abecdf61fb3963734ce1c864103624edaca"
+    },
+    {
+      "h_group": "295.1",
+      "n_proteins": 2,
+      "n_residues": 246,
+      "protein_ids": [
+        "1pcf_C",
+        "4koq_A"
+      ],
+      "rank_sha256": "02713aba18831c9f9672a09130e7227b933cb1f79ad7d6535dc400626a209337"
+    },
+    {
+      "h_group": "305.2",
+      "n_proteins": 2,
+      "n_residues": 181,
+      "protein_ids": [
+        "1usm_A",
+        "2ebb_A"
+      ],
+      "rank_sha256": "13f5b4efb121d7aa0533f734392cd24385702d25e48993eb0a43908b1f507010"
+    },
+    {
+      "h_group": "3066.1",
+      "n_proteins": 1,
+      "n_residues": 130,
+      "protein_ids": [
+        "2wb6_A"
+      ],
+      "rank_sha256": "0869bc70ca0c6fbc09a2fbda3bdc12ca0e86fd02d13745ceb01d77ab27d7a7d6"
+    },
+    {
+      "h_group": "3069.1",
+      "n_proteins": 2,
+      "n_residues": 268,
+      "protein_ids": [
+        "4zi3_C",
+        "4zi3_D"
+      ],
+      "rank_sha256": "0b17d12a6a2591242677e34ad4dbc6b8b86b72b86752440a06a3e72c5adfea69"
+    },
+    {
+      "h_group": "3087.1",
+      "n_proteins": 2,
+      "n_residues": 179,
+      "protein_ids": [
+        "3tbn_A",
+        "6avj_B"
+      ],
+      "rank_sha256": "1089d790a69d3d5e7ebd7335da7e58c51aea42a369978c8ba57519c6fe70d277"
+    },
+    {
+      "h_group": "310.3",
+      "n_proteins": 1,
+      "n_residues": 98,
+      "protein_ids": [
+        "5uvr_A"
+      ],
+      "rank_sha256": "0dcb7279e7e6905be7c65694ecef44b447e0659db598d806ca358969f3ba28dd"
+    },
+    {
+      "h_group": "3109.1",
+      "n_proteins": 2,
+      "n_residues": 94,
+      "protein_ids": [
+        "5exh_C",
+        "6asd_C"
+      ],
+      "rank_sha256": "0344ca5b661a58dbb0171fa9a10ceeab88eca7acfd3dd1860a6082906fc9f39b"
+    },
+    {
+      "h_group": "3114.1",
+      "n_proteins": 1,
+      "n_residues": 107,
+      "protein_ids": [
+        "3lyy_A"
+      ],
+      "rank_sha256": "021fab00d57732155eb74bae1dbbefb6393b170b20de6d5964e4e42d257cee89"
+    },
+    {
+      "h_group": "3176.1",
+      "n_proteins": 1,
+      "n_residues": 179,
+      "protein_ids": [
+        "3qc7_A"
+      ],
+      "rank_sha256": "0a7f79b8a5e376e4fc17511fc606e442b819b73121d980120c69542cc7b94435"
+    },
+    {
+      "h_group": "3239.1",
+      "n_proteins": 2,
+      "n_residues": 515,
+      "protein_ids": [
+        "2yzs_B",
+        "3nke_B"
+      ],
+      "rank_sha256": "0538d8275fdb8e3edf9c748a968c9f7961641841b0eaf9758200923deb5cb39a"
+    },
+    {
+      "h_group": "3325.1",
+      "n_proteins": 1,
+      "n_residues": 119,
+      "protein_ids": [
+        "3fpn_A"
+      ],
+      "rank_sha256": "0672ba0c5c23266dd33edf5b52659f4d242948e09aa9f5cc2b7f11bde4e22375"
+    },
+    {
+      "h_group": "3472.1",
+      "n_proteins": 2,
+      "n_residues": 290,
+      "protein_ids": [
+        "3omd_A",
+        "3omd_B"
+      ],
+      "rank_sha256": "086aa3f2aad13cefb94e13716e7cf7b23d1b0b6f31521ecc8768987ed83936d7"
+    },
+    {
+      "h_group": "3525.1",
+      "n_proteins": 2,
+      "n_residues": 152,
+      "protein_ids": [
+        "7uhe_A",
+        "7uhe_C"
+      ],
+      "rank_sha256": "05f31c4c2868b4bfee1f389250994bd7f11dce3f8b2ff76cb2f366b12751288f"
+    },
+    {
+      "h_group": "3566.1",
+      "n_proteins": 1,
+      "n_residues": 67,
+      "protein_ids": [
+        "4h4n_A"
+      ],
+      "rank_sha256": "05ab4075ddb85068b2d2854068496415ae302296fbd2c2b459dc639a653a6e2e"
+    },
+    {
+      "h_group": "369.1",
+      "n_proteins": 2,
+      "n_residues": 80,
+      "protein_ids": [
+        "2erl_A",
+        "6e6o_A"
+      ],
+      "rank_sha256": "13f1c75d33a06c4e6ed86e3e3e8125f6dc938af453bf87eaf7d01028970c632a"
+    },
+    {
+      "h_group": "3755.4",
+      "n_proteins": 1,
+      "n_residues": 169,
+      "protein_ids": [
+        "6e7e_A"
+      ],
+      "rank_sha256": "07b1eb273531273b5bdbfb3c296aa8180cab924caebf051410d1523ec032bbc9"
+    },
+    {
+      "h_group": "377.11",
+      "n_proteins": 1,
+      "n_residues": 77,
+      "protein_ids": [
+        "3kde_C"
+      ],
+      "rank_sha256": "07e1774436b8e7544065bfaa13324aeef1f6e32464ba64f186555bf77566307e"
+    },
+    {
+      "h_group": "379.1",
+      "n_proteins": 2,
+      "n_residues": 113,
+      "protein_ids": [
+        "1z7k_B",
+        "2gkr_I"
+      ],
+      "rank_sha256": "0e8b7e55d6a0ad3bc34c303f37e18453aebfb059fb13b501d04386660e31863e"
+    },
+    {
+      "h_group": "381.1",
+      "n_proteins": 2,
+      "n_residues": 209,
+      "protein_ids": [
+        "2vm5_A",
+        "4kmn_A"
+      ],
+      "rank_sha256": "05b13bf5057d3055e51ef1012cdd577048513cf92b401bb0968b5fb31d1c1f83"
+    },
+    {
+      "h_group": "3832.1",
+      "n_proteins": 2,
+      "n_residues": 329,
+      "protein_ids": [
+        "3f4m_A",
+        "5z1n_A"
+      ],
+      "rank_sha256": "0e1dc4ab31930eb6acfcb017a809c6b9ff911224ad09d4755c97c1a7aaf1fcc4"
+    },
+    {
+      "h_group": "3839.1",
+      "n_proteins": 2,
+      "n_residues": 90,
+      "protein_ids": [
+        "3l32_A",
+        "3l32_B"
+      ],
+      "rank_sha256": "0d8eacb27dece4b66def4f51c6b50b5c1376186a0310c012ba1be93aeeb439a1"
+    },
+    {
+      "h_group": "385.1",
+      "n_proteins": 2,
+      "n_residues": 211,
+      "protein_ids": [
+        "1wq8_A",
+        "2gh0_D"
+      ],
+      "rank_sha256": "1513c37051f24127fc4848a32f36ec97588bd2d9a765bd9920e7892a964c679c"
+    },
+    {
+      "h_group": "386.1",
+      "n_proteins": 1,
+      "n_residues": 99,
+      "protein_ids": [
+        "6tly_A"
+      ],
+      "rank_sha256": "1410b9d2c5a74bacb61129aef3f48c8e3ef6c3b134c9bbfcfb8f5ee4c9eea55a"
+    },
+    {
+      "h_group": "390.1",
+      "n_proteins": 2,
+      "n_residues": 200,
+      "protein_ids": [
+        "3hmr_A",
+        "3hms_A"
+      ],
+      "rank_sha256": "05d4306c54064f55945feb3e402d9fb8ad9ce9e03e6d45f9e732a9e63bdc40e5"
+    },
+    {
+      "h_group": "3977.1",
+      "n_proteins": 2,
+      "n_residues": 548,
+      "protein_ids": [
+        "4yxp_A",
+        "6hat_B"
+      ],
+      "rank_sha256": "1051c0d89eccacc1ccb3e06408d826a65c8de595789d8e00796e7b987e1f0058"
+    },
+    {
+      "h_group": "3983.1",
+      "n_proteins": 2,
+      "n_residues": 221,
+      "protein_ids": [
+        "6vjg_A",
+        "6yud_B"
+      ],
+      "rank_sha256": "0ec43e6ec6f56c8545ffdad3e66cd38eb4dd5b073263620f5c21752bd8ef6bc5"
+    },
+    {
+      "h_group": "4069.1",
+      "n_proteins": 2,
+      "n_residues": 224,
+      "protein_ids": [
+        "1vyi_A",
+        "7c21_A"
+      ],
+      "rank_sha256": "0f1870cca85ad687a42cef9149a09165ddb03ca0dc89cfc75cf1df3a6ac12d91"
+    },
+    {
+      "h_group": "4082.1",
+      "n_proteins": 2,
+      "n_residues": 128,
+      "protein_ids": [
+        "2db7_A",
+        "2db7_B"
+      ],
+      "rank_sha256": "0e82d5b7de470a77b12f89c3554fbd7e3e5504fd6e54618fe7a0a4c642b0b38f"
+    },
+    {
+      "h_group": "4090.1",
+      "n_proteins": 2,
+      "n_residues": 356,
+      "protein_ids": [
+        "2ia1_A",
+        "2ia1_B"
+      ],
+      "rank_sha256": "00adac1f177ff7358b9cdc934f9c51189c2a3b9a76027d65042f3ff7074bd15c"
+    },
+    {
+      "h_group": "4152.1",
+      "n_proteins": 1,
+      "n_residues": 91,
+      "protein_ids": [
+        "2gpi_A"
+      ],
+      "rank_sha256": "100c2c9969cd0311e37280f6d1cc8e451b4d3dc2d62afb9adad27fc8cd6dd852"
+    },
+    {
+      "h_group": "4218.1",
+      "n_proteins": 1,
+      "n_residues": 114,
+      "protein_ids": [
+        "2p6v_A"
+      ],
+      "rank_sha256": "1202764f11b2f4d5410dc67eab6432668123f011286d3997e36efc9d6a28c9fe"
+    },
+    {
+      "h_group": "4263.1",
+      "n_proteins": 2,
+      "n_residues": 262,
+      "protein_ids": [
+        "1wn9_A",
+        "1wna_A"
+      ],
+      "rank_sha256": "0f7ee455e53fe47a3b9af433de4f7d72fed71e104c42347a9f02485a2f280977"
+    },
+    {
+      "h_group": "4996.1",
+      "n_proteins": 2,
+      "n_residues": 268,
+      "protein_ids": [
+        "4zds_A",
+        "4zds_B"
+      ],
+      "rank_sha256": "145edf21846feb9297f492cf035b93f2866347787b3d7ca43ac061db08cda8ba"
+    },
+    {
+      "h_group": "504.1",
+      "n_proteins": 1,
+      "n_residues": 127,
+      "protein_ids": [
+        "2hng_A"
+      ],
+      "rank_sha256": "0b707352c44cf8a0770fbbab18403e4eda55bf115c39661abb6d18424d4fb2cf"
+    },
+    {
+      "h_group": "522.1",
+      "n_proteins": 2,
+      "n_residues": 732,
+      "protein_ids": [
+        "3eoj_A",
+        "4bcl_A"
+      ],
+      "rank_sha256": "0dd7e97d8829f495967cd73b0db39b689f4c8e9a5a3482f8ea1fa83d4e52df34"
+    },
+    {
+      "h_group": "592.3",
+      "n_proteins": 1,
+      "n_residues": 137,
+      "protein_ids": [
+        "4fbs_A"
+      ],
+      "rank_sha256": "1170676300e14342e12e570016a5ea820865b44c722ccad819d30f95e4485add"
+    },
+    {
+      "h_group": "6.1",
+      "n_proteins": 2,
+      "n_residues": 282,
+      "protein_ids": [
+        "1ijt_A",
+        "1md6_A"
+      ],
+      "rank_sha256": "0e9f9ab826a1df5fe583f8037c2e8f6543bd1794a7ba557f36418780d590ae13"
+    },
+    {
+      "h_group": "6007.1",
+      "n_proteins": 2,
+      "n_residues": 144,
+      "protein_ids": [
+        "1wq6_A",
+        "1wq6_B"
+      ],
+      "rank_sha256": "073c365a75a4cb3ab0f6611b1f40d63ce4a220b0f24742a904b41945db3fcf0a"
+    },
+    {
+      "h_group": "6100.1",
+      "n_proteins": 2,
+      "n_residues": 124,
+      "protein_ids": [
+        "3pf6_A",
+        "3pf6_C"
+      ],
+      "rank_sha256": "0c4778102387bc8fb43b38e22e0116879a812366bf6110da72da489e89dc3e7f"
+    },
+    {
+      "h_group": "640.1",
+      "n_proteins": 2,
+      "n_residues": 338,
+      "protein_ids": [
+        "1xvg_E",
+        "7s6q_C"
+      ],
+      "rank_sha256": "0a944687563de1cd7a7761e869d4139f22599c99418070ae6698dde191939662"
+    },
+    {
+      "h_group": "7501.1",
+      "n_proteins": 2,
+      "n_residues": 352,
+      "protein_ids": [
+        "1juv_A",
+        "3dau_A"
+      ],
+      "rank_sha256": "049dc075d4bace4338a3bf0f4a62e709d4514c59c4286079e74525fe8334b984"
+    },
+    {
+      "h_group": "7516.1",
+      "n_proteins": 2,
+      "n_residues": 492,
+      "protein_ids": [
+        "1fxo_G",
+        "2waw_A"
+      ],
+      "rank_sha256": "081ed3872c5818f0ae49be3e0bf6ac1a8353255dccd840b94e4fe6b9a253da20"
+    },
+    {
+      "h_group": "7545.1",
+      "n_proteins": 2,
+      "n_residues": 247,
+      "protein_ids": [
+        "2fb6_A",
+        "2hy5_A"
+      ],
+      "rank_sha256": "092b85b8702ff4a0eec564bce9fe61636a1616832acdf89a1b003af5bcc700e3"
+    },
+    {
+      "h_group": "7578.1",
+      "n_proteins": 1,
+      "n_residues": 194,
+      "protein_ids": [
+        "4xb6_F"
+      ],
+      "rank_sha256": "13fd91599b709abea055693fbde276991ab81b581aafeb0b10233a71817b7bd9"
+    },
+    {
+      "h_group": "811.1",
+      "n_proteins": 2,
+      "n_residues": 189,
+      "protein_ids": [
+        "1puc_A",
+        "6gu2_C"
+      ],
+      "rank_sha256": "08118160545fcd08a7492fc8fea065487ff7bd5c5a75a0a43cb896267bff1c2a"
+    },
+    {
+      "h_group": "850.1",
+      "n_proteins": 1,
+      "n_residues": 102,
+      "protein_ids": [
+        "1qw2_A"
+      ],
+      "rank_sha256": "14b64a57b9f7dea967c6da8ab1453bf4e4e23ca797b40a77ff0a3ebca3f39c02"
+    },
+    {
+      "h_group": "867.1",
+      "n_proteins": 2,
+      "n_residues": 492,
+      "protein_ids": [
+        "2x9o_A",
+        "3i94_A"
+      ],
+      "rank_sha256": "0663794c1c32fe69dab39dbe7ab91f5c5a94ae75307997559a759612a8313976"
+    },
+    {
+      "h_group": "869.1",
+      "n_proteins": 2,
+      "n_residues": 632,
+      "protein_ids": [
+        "1qlm_A",
+        "4gvq_C"
+      ],
+      "rank_sha256": "09ad80aa7a9e5a4c1c183db055cc5bd202334e651159c0acb096651409aca24c"
+    },
+    {
+      "h_group": "873.1",
+      "n_proteins": 2,
+      "n_residues": 375,
+      "protein_ids": [
+        "1u55_A",
+        "4u9b_A"
+      ],
+      "rank_sha256": "10c05937579f931d5ab707956473b607cccc6d1e9bd1d44eb75fd4693326a5d6"
+    }
+  ],
+  "n_h_groups": 59,
+  "n_selected": 100,
+  "original_120_excluded": true,
+  "phase4_authority_base": "915d53142fe5acef025572b7766f4ef095d15d31",
+  "phase4_contract_commit": "0e7222d50e4d7b3f3eb6415ad4a546429c3cf48f",
+  "phase4_recon_commit": "69f87c90f0eea51a91d7d7be88fcbda3dad5c01c",
+  "prohibited_columns_used": false,
+  "protein_ids": [
+    "1bkp_A",
+    "1d4t_A",
+    "1dci_C",
+    "1fxo_G",
+    "1ijt_A",
+    "1juv_A",
+    "1md6_A",
+    "1o4k_A",
+    "1pcf_C",
+    "1puc_A",
+    "1qlm_A",
+    "1qw2_A",
+    "1u55_A",
+    "1usm_A",
+    "1vyi_A",
+    "1wn9_A",
+    "1wna_A",
+    "1wq6_A",
+    "1wq6_B",
+    "1wq8_A",
+    "1xvg_E",
+    "1yu5_X",
+    "1z7k_B",
+    "2db7_A",
+    "2db7_B",
+    "2ebb_A",
+    "2erl_A",
+    "2fb6_A",
+    "2gh0_D",
+    "2gkr_I",
+    "2gpi_A",
+    "2hng_A",
+    "2hy5_A",
+    "2ia1_A",
+    "2ia1_B",
+    "2jft_A",
+    "2nqw_A",
+    "2p6v_A",
+    "2qq4_B",
+    "2rjw_A",
+    "2vm5_A",
+    "2waw_A",
+    "2wb6_A",
+    "2x9o_A",
+    "2yzs_B",
+    "2znr_A",
+    "3a0y_B",
+    "3bpt_A",
+    "3dau_A",
+    "3ehg_A",
+    "3eoj_A",
+    "3f4m_A",
+    "3fpn_A",
+    "3g0m_A",
+    "3hmr_A",
+    "3hms_A",
+    "3i94_A",
+    "3kde_C",
+    "3l32_A",
+    "3l32_B",
+    "3lae_A",
+    "3lgb_B",
+    "3lyy_A",
+    "3nke_B",
+    "3omd_A",
+    "3omd_B",
+    "3pf6_A",
+    "3pf6_C",
+    "3qc7_A",
+    "3tbn_A",
+    "4bcl_A",
+    "4fbs_A",
+    "4gvq_C",
+    "4h4n_A",
+    "4kmn_A",
+    "4koq_A",
+    "4u9b_A",
+    "4xb6_F",
+    "4yxp_A",
+    "4zds_A",
+    "4zds_B",
+    "4zi3_C",
+    "4zi3_D",
+    "5exh_C",
+    "5uvr_A",
+    "5z1n_A",
+    "6a9a_A",
+    "6asd_C",
+    "6avj_B",
+    "6e6o_A",
+    "6e7e_A",
+    "6gu2_C",
+    "6hat_B",
+    "6tly_A",
+    "6vjg_A",
+    "6yud_B",
+    "7c21_A",
+    "7s6q_C",
+    "7uhe_A",
+    "7uhe_C"
+  ],
+  "selection_ids_sha256": "f388e3a5f8af4b5574cb64a33a9a08a96acd971c9242d1387a66a5ada27149a1",
+  "selection_seed": 17748475499002911795,
+  "selection_seed_label": "phase4m_whole_hgroup_selection",
+  "skipped_groups": [
+    {
+      "h_group": "605.4",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3662.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2496.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "309.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "276.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2487.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "285.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "357.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3975.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "363.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "508.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3433.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "10.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "516.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "392.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "148.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4136.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "605.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7529.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "371.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3437.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3855.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "299.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3567.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "612.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2484.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "197.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4104.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "813.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3385.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "565.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7573.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4125.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4208.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2011.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4070.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3273.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "569.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3308.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3903.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7565.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7539.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "546.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "642.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3112.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4126.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "11.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3985.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "882.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7502.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "6141.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1026.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1022.2",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "618.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3191.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "275.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "548.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1103.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7563.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4126.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "856.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3607.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "5095.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3521.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "306.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "716.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3486.2",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "102.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "267.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "592.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "528.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3123.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "5055.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "878.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "246.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "239.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "868.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "541.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "590.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "50.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3919.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "589.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "196.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4993.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "622.5",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2004.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3105.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "273.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "142.3",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1205.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4202.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3829.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3172.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4350.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3347.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3740.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "851.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4296.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "629.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "6040.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "219.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3826.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4135.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3392.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "261.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3070.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "132.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4240.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3187.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4076.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4111.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7558.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "5089.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7537.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "186.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "133.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "5084.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "849.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1010.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "614.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "631.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3158.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "562.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "168.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "242.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3651.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7512.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4262.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3400.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1163.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "60.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "71.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4340.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4212.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "881.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "5000.3",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "380.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3994.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "6171.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "841.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "843.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "712.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7575.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "240.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3065.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "257.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "241.12",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4040.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1185.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "633.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3920.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "830.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "859.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3644.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4028.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "378.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "64.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2006.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3606.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "388.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4095.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "234.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4204.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3398.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1176.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "315.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "567.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "77.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "876.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7030.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "12.3",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3185.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "913.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3857.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "886.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "5054.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3432.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3188.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3986.2",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "704.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2011.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7592.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3407.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3362.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3308.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "71.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "220.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "881.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "263.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "6115.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3782.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "306.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3933.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4072.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "351.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4089.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3119.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "897.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7548.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1133.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3443.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4295.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "576.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3077.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "288.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "325.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2501.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1017.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "131.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3402.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4098.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "5092.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3825.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3445.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3454.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3118.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "246.3",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3727.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "862.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3459.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "216.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "312.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3848.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7590.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3127.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3236.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "195.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3884.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7561.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "824.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "110.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3813.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3620.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "616.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "883.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7504.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "389.6",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "627.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "719.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3711.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "804.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "241.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "157.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3348.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "213.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "232.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "105.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "277.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4992.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4221.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4326.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "303.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4198.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4269.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7551.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4.24",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3705.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4177.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "5060.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4180.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "818.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "330.7",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "56.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7579.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "319.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "280.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "307.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "705.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "5088.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3897.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4273.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4194.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "141.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "262.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3908.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4076.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "222.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "146.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "714.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3976.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "524.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "529.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7111.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3206.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3468.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "153.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "5099.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "230.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7522.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3200.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "180.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "289.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3084.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3113.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "103.4",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3812.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7572.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2489.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7534.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "847.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "374.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3174.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "59.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4279.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3080.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "608.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "391.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "650.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "837.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4237.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "708.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "6159.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "564.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "328.6",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "162.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "53.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4313.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2012.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2484.4",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4267.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3842.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "6006.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "383.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3377.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3847.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4168.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4347.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7543.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "927.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "106.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3516.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4242.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4099.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "808.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3149.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7568.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3380.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1189.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "104.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7034.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4307.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "159.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "268.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "702.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7523.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "76.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3193.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2010.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "208.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "6167.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4245.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "258.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "866.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "583.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3496.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3081.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7571.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4097.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4276.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "178.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "904.2",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3122.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3863.1",
+      "n_proteins": 3,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "5071.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "515.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "821.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3115.3",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "5046.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2.5",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "5001.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3504.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3101.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1089.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "382.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "108.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3369.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "601.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "163.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3282.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4169.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3100.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "301.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "822.3",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "6053.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "530.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "623.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7596.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "316.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2003.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3173.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7553.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7070.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "235.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4113.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "373.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4294.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4100.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3707.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3505.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3438.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "543.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "58.2",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3531.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "539.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "173.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "272.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "304.48",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "221.4",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "511.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7032.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "389.3",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3546.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "872.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "73.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "294.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "358.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3429.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4288.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "393.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "897.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "108.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "147.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "877.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "283.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4982.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4230.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4205.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3151.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2499.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "6049.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7519.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1170.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4337.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7574.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3098.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3409.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3838.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3374.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3633.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1128.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3388.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "604.7",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2494.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7527.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "861.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "139.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "264.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3418.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "164.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "5104.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "563.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3097.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "578.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "274.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "75.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "167.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4351.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3302.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4216.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4198.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "384.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "540.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "911.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "207.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "101.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4137.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "302.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "290.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3663.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1162.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2005.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "209.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3488.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3288.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "72.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4123.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3389.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "243.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3143.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4085.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "323.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "226.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "189.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "6154.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "611.3",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "136.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "6124.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "914.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "271.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7520.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3781.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3152.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "507.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "628.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "185.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7569.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "311.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3120.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4133.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3372.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3886.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4336.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4110.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "872.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4009.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3713.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3571.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4258.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4266.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3696.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "145.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "314.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7547.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3091.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "281.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3078.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1016.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "709.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "172.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3757.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3291.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3755.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4268.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7531.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "582.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7019.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7112.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7071.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7503.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "165.3",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "905.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "212.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "328.4",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "322.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4193.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4085.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3870.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "375.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "308.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "615.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "532.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "366.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "6023.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "188.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "625.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3686.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "601.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4998.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3131.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "320.4",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "928.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3922.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "327.11",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "282.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "610.4",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "2485.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4222.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "294.2",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "252.2",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "372.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3201.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4107.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "527.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3881.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3518.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "142.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7513.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3356.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4259.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7525.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7024.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1191.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "587.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3981.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "639.2",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3106.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "397.8",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3784.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "387.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "6061.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3156.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4201.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3277.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3136.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "551.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "6067.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7517.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4254.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "875.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1024.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4096.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "846.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4357.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4272.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3238.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "1169.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "7059.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "505.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "603.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3232.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "190.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3148.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "210.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "4121.1",
+      "n_proteins": 1,
+      "reason": "not_reached_after_exact_n"
+    },
+    {
+      "h_group": "3982.1",
+      "n_proteins": 2,
+      "reason": "not_reached_after_exact_n"
+    }
+  ],
+  "solver": {
+    "highspy_version": null,
+    "milp_backend": "HiGHS (scipy.optimize.milp default)",
+    "milp_function": "scipy.optimize.milp",
+    "milp_options": {
+      "disp": false
+    },
+    "numpy_version": "2.5.2",
+    "repair": "steepest-descent over equal-size swaps, size-2 vs two size-1, and size-3 vs 2+1 or three size-1",
+    "scipy_version": "1.18.1"
+  },
+  "source_tsv_sha256": "844c52cbc829fb3a47bf91ecaa4209cc00be689c7ea401c814091ca68fb6ebe6",
+  "timing": {
+    "peak_rss_kb": 152552,
+    "total_seconds": 1.6053085322491825
+  },
+  "whole_h_groups_only": true,
+  "zero_outcome_access": true
+}
